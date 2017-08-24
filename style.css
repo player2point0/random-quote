@@ -1,0 +1,78 @@
+html{
+	width: 100%;
+	height: 100%;
+	background-image: url(Temp-min.jpeg);
+	background-size: cover;
+}
+
+.quote-box{
+	background-color: dimgray;
+	opacity: 0.75;
+	width: 50%;
+	transform: translate3d(50%,7rem,0);
+	padding: 1rem;
+	border: aliceblue 2px solid;
+	border-radius: 4%;
+}
+
+.quote-text{
+	color: aliceblue;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 3rem;
+	width: auto;
+}
+
+.quote-author{
+	color: aliceblue;
+	text-align: right;
+	vertical-align: middle;
+	font-size: 3rem;
+	width: auto;
+}
+
+.buttons-box{
+	text-align: center;
+}
+
+.btn {
+	color: dimgray;
+	background-color: aliceblue;
+	border: white solid 1px;
+	font-size: 1.25rem;
+	border-radius: 4%;
+	padding: 1rem;
+	margin: 1rem;
+	width: 25%;
+}
+
+.btn:hover{
+	color: black;
+	background-color: white;
+}
+
+.credits-box {
+	bottom: 0;
+	left: 0;
+	width: 7.5rem;
+	background-color: dimgray;
+	opacity: 0.75;
+	border: aliceblue 2px solid;
+	border-radius: 4%;
+	position: fixed;
+}
+
+.credits-box a{
+	width: 10rem;
+	display: block;
+	padding: 0.5rem;
+	text-decoration: none;
+	color: white;
+}
+
+@media only screen and (max-width: 700px){
+	.quote-box{
+		transform: translate3d(50%,14rem,0);
+		padding: 1rem;
+	}
+}

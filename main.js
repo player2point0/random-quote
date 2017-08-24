@@ -3,7 +3,7 @@ $(document).ready(function()
 	//Default text
 	var quote_text = "You have part of my attention. You have the minimum amount.";
 	var quote_author = "Mark Zuckerberg";
-	var image_source = "Temp-min.jpeg";
+	var image_source = "";
 	var image_link = "";
 	var photographer = "";
 	var utm = "?utm_source=random-quote-generator&utm_medium=referral&utm_campaign=api-credit";
